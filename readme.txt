@@ -1,5 +1,5 @@
-Lawrence Maceren 158001833
-George Elia 159003227
+Lawrence Maceren
+George Elia
 
 Our project works on every browser we were able to test it on. However, we did a majority of our testing on Google Chrome,
 so it is the preferred browser

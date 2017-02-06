@@ -1,0 +1,16 @@
+Query1.csv:
+SELECT name, tuitionInState, studentLoans
+FROM School
+WHERE studentLoans < 5000
+ORDER by name
+
+Query2.csv:
+SELECT `Race_Occupation_Salary`.`Occupation_Salary`+`Race_Occupation_Salary`.`Occupation_Error` as HighAvgSalary,
+`Race_Occupation_Salary`.`Occupation_Salary`-`Race_Occupation_Salary`.`Occupation_Error` as LowAvgSalary
+FROM `george_schema`.`Race_Occupation_Salary`
+WHERE `Race_Occupation_Salary`.`Race` = 'Asian' AND `Race_Occupation_Salary`.`Occupation` = 'Engineers';
+
+Query3.csv:
+SELECT  f1.`Major`, f2.`Major_Salary` as MaleSalary , f1.`Major_Salary` as FemaleSalary
+FROM `george_schema`.`Gender_Major_Salary` f1, `george_schema`.`Gender_Major_Salary` f2
+WHERE f1.`Gender` = 'Female' AND f2.`Gender` = 'Male' AND f1.`Major` = f2.`Major`;

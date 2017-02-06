@@ -1,0 +1,11 @@
+Race,Occupation,Occupation_Salary,Occupation_Error
+Asian,Agriculture,32242,7978
+Black,Agriculture,28888,28284
+"Hispanic or Latino",Agriculture,26431,4434
+"White, not Hispanic",Agriculture,44549,2926
+Asian,Architects,84058,7557
+Black,Architects,61902,10524
+"Hispanic or Latino",Architects,69063,3870
+"White, not Hispanic",Architects,76272,1460
+Asian,"Arts and entertainment",60593,1992
+Black,"Arts and entertainment",52439,3011
